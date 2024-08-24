@@ -33,7 +33,7 @@ const getTask = async (req, res) => {
   9. Consider the 'prompt' field in the object for additional context in decision-making.
   10. If task "completed" is equal to true, remove from the schedule.
   11.use the "currentTime" to determine the current date and time and make sure all tasks are scheduled after the current time.
-
+ 12.Never remove a task unless completed is true
   Important notes:
   - Do not return empty arrays or objects unless explicitly required by the input.
   - Ensure you make meaningful changes to the schedule by adjusting times appropriately.

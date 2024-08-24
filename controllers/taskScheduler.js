@@ -32,11 +32,13 @@ const getTask = async (req, res) => {
   8. Use the 'start time' and 'end time' keys as upper and lower bounds for scheduling.
   9. Consider the 'prompt' field in the object for additional context in decision-making.
   10. If task "completed" is equal to true, remove from the schedule.
+  11.use the "currentTime" to determine the current date and time and make sure all tasks are scheduled after the current time.
 
   Important notes:
   - Do not return empty arrays or objects unless explicitly required by the input.
   - Ensure you make meaningful changes to the schedule by adjusting times appropriately.
   - Your final output should only include the optimized task arrays as specified earlier.
+  -the times should be between the start and end dates if specified
 
   Your goal is to create an efficient, logical, and user-friendly schedule based on the provided tasks and constraints.`,
     ],

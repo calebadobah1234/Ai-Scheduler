@@ -38,6 +38,7 @@ const getTask = async (req, res) => {
   - Do not return empty arrays or objects unless explicitly required by the input.
   - Ensure you make meaningful changes to the schedule by adjusting times appropriately.
   - Your final output should only include the optimized task arrays as specified earlier.
+  - Time should be in 24 hour formmat like "23:12"
   
 
   Your goal is to create an efficient, logical, and user-friendly schedule based on the provided tasks and constraints.`,

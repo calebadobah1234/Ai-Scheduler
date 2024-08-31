@@ -10,7 +10,7 @@ const getTask = async (req, res) => {
   console.log("Request body:", body);
 
   const model = new ChatGroq({
-    apiKey: "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",
+    apiKey: "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",
     model: "llama-3.1-70b-versatile",
   });
 
